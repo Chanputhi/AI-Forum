@@ -1,0 +1,55 @@
+/* Name: Chanputhi TITH
+Deakin SIT313
+Task 4.1C */
+
+.articleDiv {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.titlePost p {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.titlePost input {
+    width: 600px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+.tagPost p {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.tagPost input {
+    width: 600px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.authorPost p {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.authorPost input {
+    width: 595px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.imagePreview {
+    width: 50%;
+    margin: 10px;
+}
+
+.imagePreview img {
+    width: 50%;
+    border-radius: 5px;
+}
