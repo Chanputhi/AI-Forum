@@ -1,0 +1,63 @@
+
+h1 {
+    color: #000000;
+}
+
+#signUp {
+    width: 80px;
+    float: right;
+    background-color: white;
+    color: rgb(51, 136, 240);
+    border: 1px solid rgb(51, 136, 240);
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 20%;
+}
+
+.loginForm {
+    width: 50%;
+    background-color: #f0f0f0;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+    padding-left: 80px;
+}
+
+.loginData {
+    display: block;
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.loginForm a {
+    display: block;
+    text-decoration: none;
+    width: 75%;
+    background-color: rgb(51, 136, 240);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 12px 18px;
+    margin: 8px 0;
+    margin-top: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.loginForm button {
+    display: block;
+    width: 82%;
+    background-color: rgb(51, 136, 240);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    padding: 12px 18px;
+    margin: 8px 0;
+    margin-top: 25px;
+    border: none;
+    cursor: pointer;
+}
