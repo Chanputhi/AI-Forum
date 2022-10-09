@@ -13,12 +13,12 @@ let stripePromise;
 
 const getStripe = () => {
     if(!stripePromise) {
-        stripePromise = loadStripe(process.env.REACT_APP_STRIPE_KEY);
+        stripePromise = loadStripe("pk_test_51LqSlKIS9qTMHhjmq1oJfAvKAhvUaoQm7cdbSeJowx4dNstX5Xci7e1nQpytQhwvTsgkilhggkzOUi6GeqjFlVlq00YNpkvuDh");
     }
     return stripePromise;
 }
 
-console.log("process.env.REACT_APP_STRIPE_KEY: ", process.env.REACT_APP_STRIPE_KEY)
+console.log("process.env.REACT_APP_STRIPE_KEY: ", "pk_test_51LqSlKIS9qTMHhjmq1oJfAvKAhvUaoQm7cdbSeJowx4dNstX5Xci7e1nQpytQhwvTsgkilhggkzOUi6GeqjFlVlq00YNpkvuDh")
 
 function Plan() {
 
