@@ -9,7 +9,7 @@
 import React from 'react';
 import {Route, Routes} from 'react-router-dom';
 import './App.css';
-import "@stripe/stripe-js";
+// import "@stripe/stripe-js";
 
 import HeaderFooter from './HeaderFooter';
 import HomePage from './routes/HomePage';
