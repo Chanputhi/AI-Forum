@@ -33,8 +33,10 @@ function Plan() {
     const checkoutOptions = {
         lineItems: [item],
         mode: "payment",
-        successUrl: `${window.location.origin}/plan/success`,
-        cancelUrl: `${window.location.origin}/plan/cancel`
+        successUrl: `${window.location.origin}/plan`,
+        cancelUrl: `${window.location.origin}/plan`
+//         successUrl: `${window.location.origin}/plan/success`,
+//         cancelUrl: `${window.location.origin}/plan/cancel`
       };
     
     const redirectToCheckout = async () => {
